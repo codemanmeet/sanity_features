@@ -5,7 +5,7 @@ require 'capybara/dsl'
 Capybara.configure do |config|
   config.current_driver = :selenium
   config.run_server = false
-  config.app_host   = 'http://en.wikipedia.org'
+  config.app_host   = 'http://localhost:3000'
 end
 
 RSpec.configure do |config|
